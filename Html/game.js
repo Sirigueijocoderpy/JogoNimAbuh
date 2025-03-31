@@ -128,7 +128,7 @@ function startChampionship() {
         //o//
         //cabelo//
 
-        startRound(10, 3); // Exemplo: 10 peças e limite de 3
+        startRound(10, 3); // Exemplo: 10 peças e limite de 3gfdsa
 
         setTimeout(() => {
             let winner = (10 % (3 + 1) === 0) ? 'Usuário' : 'Computador';
