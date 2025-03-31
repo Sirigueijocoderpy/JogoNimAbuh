@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do NIM</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            text-align: center;
+        }
+        #gameContainer {
+            margin-top: 20px;
+        }
+        #gameInfo {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bem-vindo ao Jogo do NIM!</h1>
+    
+    <div id="gameContainer">
+        <button id="startButton">Começar Jogo</button>
+        
+        <div id="inputs" style="display: none;">
+            <label for="mode">Modo de Jogo (Partida ou Campeonato):</label><br>
+            <input type="text" id="mode"><br><br>
+            
+            <label for="pieces">Número de peças:</label><br>
+            <input type="number" id="pieces"><br><br>
+            
+            <label for="limit">Limite de peças por jogada:</label><br>
+            <input type="number" id="limit"><br><br>
+            
+            <button id="startGameButton">Iniciar</button>
+        </div>
+        
+        <div id="gameInfo"></div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
