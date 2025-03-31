@@ -122,6 +122,11 @@ function startChampionship() {
         }
 
         gameInfo.innerHTML += `<p>Rodada ${round}:</p>`;
+        //eu//
+        //adoro//
+        //pintar//
+        //o//
+        //cabelo//
 
         startRound(10, 3); // Exemplo: 10 peças e limite de 3
 
@@ -139,4 +144,5 @@ function startChampionship() {
     }
 
     playNextRound();
+    //abuh//
 }
